@@ -1,34 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Lívia Vittoria — Desenvolvedora Front-end">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Lívia Vittoria, Desenvolvedora Full Stack">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f7faff"/>
-      <stop offset="1" stop-color="#e3eeff"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f6fa"/>
     </linearGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0b3a8c"/>
-      <stop offset="1" stop-color="#1f6feb"/>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#c9d6e6"/><stop offset=".55" stop-color="#eef3f9"/><stop offset="1" stop-color="#9fb3ca"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#1f6feb" stroke-opacity=".07"/>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".96"/><stop offset="1" stop-color="#eaf4ff" stop-opacity=".92"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1769aa"/><stop offset="1" stop-color="#58a6e7"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1769aa" fill-opacity=".10"/>
     </pattern>
-    <radialGradient id="glow" cx=".82" cy=".35" r=".45">
-      <stop offset="0" stop-color="#5b9bff" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#5b9bff" stop-opacity="0"/>
-    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1769aa" flood-opacity=".14"/>
+    </filter>
   </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
-  <g fill="none" stroke="#1f6feb" stroke-opacity=".35">
-    <circle cx="985" cy="150" r="92"/>
-    <circle cx="985" cy="150" r="58" stroke-dasharray="4 7"/>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <rect x=".75" y=".75" width="1198.5" height="318.5" rx="19.5" fill="none" stroke="#d9e3ef" stroke-width="1.5"/>
+
+  <!-- monograma -->
+  <g transform="translate(64 96)" filter="url(#soft)">
+    <rect width="128" height="128" rx="32" fill="url(#glass)" stroke="url(#metal)" stroke-width="3"/>
+    <rect x="8" y="8" width="112" height="112" rx="25" fill="none" stroke="#1769aa" stroke-opacity=".12"/>
+    <path d="M47 34v58h40" fill="none" stroke="url(#ink)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="47" cy="34" r="4.5" fill="#fff"/>
+    <circle cx="94" cy="92" r="8" fill="#fff" stroke="#1769aa" stroke-width="4"/>
   </g>
-  <g fill="#1f6feb">
-    <circle cx="985" cy="58" r="5"/><circle cx="1077" cy="150" r="4"/><circle cx="927" cy="150" r="3"/>
+
+  <!-- texto -->
+  <text x="232" y="146" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5" fill="#172b45">Lívia Vittoria</text>
+  <text x="234" y="190" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="25" font-weight="600" fill="#1769aa">Desenvolvedora Full Stack</text>
+  <text x="234" y="226" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" fill="#5b6b80">Estudante de ADS · FATEC São Caetano do Sul</text>
+
+  <!-- diagrama: interface → API → banco -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5b6b80">
+    <path id="flow" d="M856 110 H930 V134 M958 162 H996 V206 H1036" fill="none" stroke="#c4d6ea" stroke-width="2"/>
+    <path d="M856 110 H930 V134 M958 162 H996 V206 H1036" fill="none" stroke="#58a6e7" stroke-width="2" stroke-dasharray="6 10">
+      <animate attributeName="stroke-dashoffset" from="64" to="0" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+
+    <g>
+      <rect x="752" y="82" width="104" height="56" rx="12" fill="#fff" stroke="#d2dfee" stroke-width="1.5"/>
+      <rect x="766" y="96" width="34" height="5" rx="2.5" fill="#1769aa"/>
+      <rect x="766" y="108" width="74" height="4" rx="2" fill="#d9e5f2"/>
+      <rect x="766" y="118" width="54" height="4" rx="2" fill="#d9e5f2"/>
+      <text x="752" y="160">interface</text>
+    </g>
+    <g>
+      <rect x="902" y="134" width="56" height="56" rx="14" fill="#eaf4ff" stroke="#b9d4ee" stroke-width="1.5"/>
+      <text x="930" y="167" text-anchor="middle" font-size="14" font-weight="600" fill="#1769aa">API</text>
+      <text x="930" y="212" text-anchor="middle">lógica</text>
+    </g>
+    <g>
+      <ellipse cx="1074" cy="196" rx="38" ry="10" fill="#fff" stroke="#b9d4ee" stroke-width="1.5"/>
+      <path d="M1036 196v28c0 5.5 17 10 38 10s38-4.5 38-10v-28" fill="#fff" stroke="#b9d4ee" stroke-width="1.5"/>
+      <path d="M1036 210c0 5.5 17 10 38 10s38-4.5 38-10" fill="none" stroke="#d9e5f2" stroke-width="1.5"/>
+      <text x="1074" y="258" text-anchor="middle">dados</text>
+    </g>
+
+    <circle r="5" fill="#1769aa">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M856 110 H930 V134 M958 162 H996 V206 H1036"/>
+    </circle>
   </g>
-  <text x="985" y="163" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="38" font-weight="700" fill="#0b3a8c">&lt;/&gt;</text>
-  <text x="72" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" letter-spacing="3" fill="#1f6feb">OLÁ, EU SOU</text>
-  <text x="70" y="170" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="url(#ink)">Lívia Vittoria</text>
-  <text x="72" y="214" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" fill="#33415c">Desenvolvedora Front-end · JavaScript · Supabase · PWA</text>
-  <rect x="72" y="238" width="64" height="4" rx="2" fill="#1f6feb"/>
 </svg>
