@@ -3,9 +3,9 @@
 </a>
 
 <p align="center">
-  <a href="https://liviavittoria28-create.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-1769AA?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfólio"></a>
-  <a href="https://www.linkedin.com/in/livia-vittoria-732b8a430/"><img src="https://img.shields.io/badge/LinkedIn-1769AA?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:liviavittoria28@gmail.com"><img src="https://img.shields.io/badge/liviavittoria28%40gmail.com-58A6E7?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="https://liviavittoria28-create.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-1769AA?style=flat-square" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/livia-vittoria-732b8a430/"><img src="https://img.shields.io/badge/LinkedIn-1769AA?style=flat-square" alt="LinkedIn"></a>
+  <a href="mailto:liviavittoria28@gmail.com"><img src="https://img.shields.io/badge/liviavittoria28%40gmail.com-58A6E7?style=flat-square" alt="E-mail"></a>
 </p>
 
 ### Olá! Sou a Lívia Vittoria
