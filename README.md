@@ -1,55 +1,64 @@
 <a href="https://liviavittoria28-create.github.io">
-  <img src="assets/banner.svg" alt="Lívia Vittoria — Desenvolvedora Front-end" width="100%">
+  <img src="assets/banner.svg" alt="Lívia Vittoria · Desenvolvedora Full Stack · Estudante de ADS na FATEC São Caetano do Sul" width="100%">
 </a>
 
-### Oi! Eu sou a Lívia 👋
+<p align="center">
+  <a href="https://liviavittoria28-create.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-1769AA?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/livia-vittoria-732b8a430/"><img src="https://img.shields.io/badge/LinkedIn-1769AA?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:liviavittoria28@gmail.com"><img src="https://img.shields.io/badge/liviavittoria28%40gmail.com-58A6E7?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
+</p>
 
-Desenvolvedora front-end. Gosto de pegar uma necessidade real e transformar em aplicação completa: interface cuidada, regras de negócio bem amarradas e dados protegidos.
+### Olá! Sou a Lívia Vittoria
 
-- 🌐 **LumiNova**: rede social de comunidades e fandoms, com chat em tempo real e segurança no banco via RLS
-- 📅 **Agenda Expert**: sistema em uso por um estúdio de estética, com agenda, financeiro e robô de WhatsApp
-- 🧪 Testo o que construo: os dois projetos principais somam **160+ testes automatizados**
-- 💼 Portfólio: **[liviavittoria28-create.github.io](https://liviavittoria28-create.github.io)**
+Sou estudante de Análise e Desenvolvimento de Sistemas e desenvolvedora Full Stack. Gosto de transformar ideias em aplicações funcionais, unindo interfaces, lógica de programação, APIs e bancos de dados. Estou sempre estudando, desenvolvendo projetos e aprimorando minhas habilidades em engenharia de software.
 
-### 🛠️ Com o que eu trabalho
+**Como atuo:** construo a interface (HTML, CSS e JavaScript), a lógica de negócio e as APIs (Node.js e Python) e a camada de dados (PostgreSQL e Supabase, com regras de acesso no próprio banco). Documento e testo o que entrego.
 
-| Área | Tecnologias |
-|---|---|
-| Front-end | HTML · CSS · JavaScript · PWA (service worker, instalação no celular) |
-| Back-end | Node.js · Supabase (Auth, Storage, Realtime) · Python/FastAPI (protótipos) |
-| Banco de dados | PostgreSQL · Row Level Security · SQL (migrações, funções, triggers) |
-| Ferramentas | Git e GitHub · Render · Docker |
+### 🎓 Formação
+
+**Análise e Desenvolvimento de Sistemas**, FATEC São Caetano do Sul (em andamento)
+
+### 🛠️ Tecnologias
+
+| Área | Tecnologias | Onde aplico |
+|---|---|---|
+| **Front-end** | HTML5 · CSS3 · JavaScript · interfaces responsivas · componentização · PWA | LumiNova, Agenda Expert, VIVA+, Portugol World, Colorarium |
+| **Back-end** | Node.js · Python (FastAPI) · APIs REST · CRUD · integração entre sistemas | Agenda Expert (API própria e robô do WhatsApp), protótipo da LumiNova |
+| **Banco de dados** | SQL · PostgreSQL · Supabase · modelagem de dados · Row Level Security | LumiNova, Agenda Expert, VIVA+ |
+| **NoSQL** | conceitos e modelagem de bancos não relacionais | estudos (ainda sem projeto público) |
+| **Ferramentas** | Git · GitHub · VS Code · Render · Figma | uso diário |
 
 ### ⭐ Projetos em destaque
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/liviavittoria28-create/Luminova"><b>LumiNova</b></a><br>
-      <sub>HTML · CSS · JavaScript · Supabase · PostgreSQL</sub><br><br>
-      Rede social brasileira organizada em comunidades e subcomunidades. Chat em tempo real, XP, conquistas, árvore de habilidades, tema claro/escuro e recursos de LGPD. 81 testes SQL de segurança e funcionalidade.<br><br>
-      <a href="https://luminova-cwgc.onrender.com">▶ Ver demo</a>
+      <h4><a href="https://github.com/liviavittoria28-create/Luminova">LumiNova</a></h4>
+      <sub><b>Aplicação Full Stack</b> · JavaScript · Supabase · PostgreSQL</sub>
+      <p>Rede social brasileira organizada em comunidades e subcomunidades, com chat em tempo real, XP, conquistas e árvore de habilidades. Regras de acesso no banco (RLS em 49 tabelas) e 81 testes SQL.</p>
+      <a href="https://luminova-cwgc.onrender.com">Ver demonstração</a> · <a href="https://github.com/liviavittoria28-create/Luminova">Código</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/liviavittoria28-create/Agenda-expert"><b>Agenda Expert</b></a><br>
-      <sub>Node.js · PostgreSQL · Supabase · PWA · WhatsApp</sub><br><br>
-      Gestão de agenda, clientes, anamnese e financeiro para um estúdio de estética. Detecção de conflitos, uso offline, backup diário e confirmação automática de horários pelo WhatsApp. 81 testes automatizados.
+      <h4>Agenda Expert</h4>
+      <sub><b>Aplicação Full Stack</b> · Node.js · PostgreSQL · PWA · WhatsApp</sub>
+      <p>Sistema em uso por uma profissional de estética: agenda com detecção de conflitos, clientes com anamnese, financeiro e confirmação automática de horários pelo WhatsApp. 81 testes automatizados.</p>
+      <sub>🔒 Repositório privado (projeto de cliente)</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/liviavittoria28-create/VIVA-"><b>VIVA+</b></a><br>
-      <sub>HTML · CSS · JavaScript · PostgreSQL (planejado)</sub><br><br>
-      App de rotina e conexão familiar para pessoas idosas, com foco em acessibilidade. Documentação de engenharia completa: requisitos, casos de uso, arquitetura C4/arc42, ADRs e LGPD.
+      <h4><a href="https://github.com/liviavittoria28-create/VIVA-">VIVA+</a></h4>
+      <sub><b>Engenharia de Software</b> · JavaScript · PostgreSQL · acessibilidade</sub>
+      <p>Plataforma de rotina e conexão familiar para pessoas idosas. Fase 1 funcional no celular. Requisitos, casos de uso, arquitetura C4/arc42, ADRs e esquema com RLS já documentados.</p>
+      <a href="https://github.com/liviavittoria28-create/VIVA-">Código e documentação</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/liviavittoria28-create/engenharia"><b>Portugol World</b></a> · <a href="https://github.com/liviavittoria28-create/COR"><b>Colorarium</b></a><br>
-      <sub>HTML · CSS · JavaScript</sub><br><br>
-      Um jogo que ensina lógica de programação em 12 fases e um catálogo interativo com mais de 500 cores, busca e paletas sugeridas.
+      <h4><a href="https://github.com/liviavittoria28-create/engenharia">Portugol World</a> · <a href="https://github.com/liviavittoria28-create/COR">Colorarium</a></h4>
+      <sub><b>Front-end e interfaces</b> · HTML · CSS · JavaScript</sub>
+      <p>Um jogo de estudo de lógica de programação, com 11 lições e 10 desafios de código, e um catálogo interativo com 500 cores, busca e paletas.</p>
+      <a href="https://liviavittoria28-create.github.io/engenharia/">Jogar</a> · <a href="https://liviavittoria28-create.github.io/COR/">Explorar cores</a>
     </td>
   </tr>
 </table>
 
-### 📫 Contato
-
-[Portfólio](https://liviavittoria28-create.github.io) · [GitHub](https://github.com/liviavittoria28-create)
+<p align="center"><sub>Projetos completos em <a href="https://liviavittoria28-create.github.io">liviavittoria28-create.github.io</a></sub></p>
